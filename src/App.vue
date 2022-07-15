@@ -20,7 +20,7 @@ export default {
   },
   methods: {
     fetchData() {
-      axios.get("http://localhost:3000/api/users").then((response) => {
+      axios.get("http://47.96.71.22:3000/api/users").then((response) => {
         this.users = response.data;
         console.log(response, "pppp");
       });
