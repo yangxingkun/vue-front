@@ -1,6 +1,6 @@
 module.exports={
     devServer: {
-        port: 80,
+        port: 3008,
         // 配置代理
         proxy: {
           '/api': {
